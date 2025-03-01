@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hbulut <hbulut@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hasretdenizbulut <hasretdenizbulut@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 14:40:02 by hbulut            #+#    #+#             */
-/*   Updated: 2025/02/22 14:53:31 by hbulut           ###   ########.fr       */
+/*   Updated: 2025/03/01 22:33:10 by hasretdeniz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,5 +80,3 @@ char	**ft_split(char const *s, char c)
 	arrays[j] = NULL;
 	return (arrays);
 }
-
-
